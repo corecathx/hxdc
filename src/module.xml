@@ -1,0 +1,9 @@
+<module id="my-module">
+    <components>
+        <class file="assets/custom/message.xml" />
+        <class file="assets/custom/guildlist.xml" />
+        <class file="assets/custom/serverlist.xml" />
+        <class file="assets/custom/channelgroup.xml" />
+
+    </components>
+</module>

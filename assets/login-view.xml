@@ -1,0 +1,17 @@
+<vbox width="100%" height="100%" style="padding:8px;">
+    <vbox width="100%" height="100%">
+        <vbox verticalAlign="center" horizontalAlign="center">
+            <image resource="res/logo.png" imageScale="0.14" horizontalAlign="center"/>
+            <label text="HXDC is a custom Discord client built using HaxeUI and written in Haxe." style="font-bold:true;font-size:16px;"/>
+            
+            <vbox width="100%">
+                <label text="Enter your Discord Token:" />
+                <textfield width="100%" id="tokenInput" placeholder="mfa.yourTokenGoesHere123456" style="background-color: #000000;background-opacity:.3;clip:true;"/>
+                <button id="loginButton" width="100" horizontalAlign="center" text="Login" style="background-color: #000000;background-opacity:.3;clip:true;"/>
+            </vbox>
+            
+            <label text="Your token is stored locally on your device (config.json) and NEVER uploaded online." horizontalAlign="center"/>
+            <label text="If you're still concerned about privacy, feel free not to use this client." horizontalAlign="center"/> 
+        </vbox>
+    </vbox>
+</vbox>

@@ -1,0 +1,4 @@
+
+<vbox id="channelgroup" width="100%" style="padding: 5px; background: #303030; border-radius: 10px;">
+    <tree-view id="treewawa" width="100%"/>
+</vbox>

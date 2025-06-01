@@ -1,0 +1,22 @@
+<vbox id="guildlist" width="100%" style="padding: 5px; background: #303030; border-radius: 10px;">
+    <style>
+        #guildlist:hover {
+            background: #404040;
+        }
+        #hashtagstart {
+            font-size: 18px;
+            color: gray;
+            font-bold: false;
+        }
+
+        #chatname {
+            color:white;
+            font-size: 14px;
+            font-bold: false;
+        }
+    </style>
+    <hbox >
+        <label text="#" id="hashtagstart"/>
+        <label id="chatname" text="awawa" verticalAlign="center"/>
+    </hbox>    
+</vbox>

@@ -1,0 +1,5 @@
+-cp src
+-lib hxdiscord
+--main Main
+--hl bin/main.hl
+--cmd hl bin/main.hl

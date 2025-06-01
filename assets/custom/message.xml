@@ -1,0 +1,31 @@
+<vbox width="100%" style="padding: 8px; background: #252525; border-radius: 10px; clip:true;">
+    <style>
+        #profile {
+            border-radius:25px;
+        }
+        #username {
+            color: white;
+            font-size: 16px;
+            font-bold: true;
+        }
+        #message {
+            font-size: 13px;
+            color:white;
+        }
+        #timestamp {
+            font-size: 12px;
+            color:gray;
+        }
+    </style>
+    <hbox width="100%">
+        <image id="profile" resource="https://raw.githubusercontent.com/corecathx/corecathx.github.io/refs/heads/main/public/images/core.png" width="40px" height="40px"/>
+        <vbox width="100%">
+            <hbox>
+                <label id="username" text="awawa" />
+                <label id="timestamp" text="0:00pm" verticalAlign="center"/>
+            </hbox>
+            <label id="message" text="wiwiwiw" width="100%"/>
+            <vbox id="atchContainer"/>
+        </vbox>
+    </hbox>    
+</vbox>

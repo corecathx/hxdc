@@ -1,0 +1,3 @@
+<vbox id="serverlist" width="60px" height="60px" style="padding: 8px; background: #303030; border-radius: 10px;">
+    <image id="pfp" verticalAlign="center" horizontalAlign="center" width="90%" height="90%"/>
+</vbox>

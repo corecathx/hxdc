@@ -1,0 +1,30 @@
+<vbox id="mainWindow" width="100%" height="100%" style="padding: 4px; background: #101010;">
+    <vbox id="titleBar" width="100%">
+        <style>
+            #wintext {
+                color: white;
+            }
+            .button {
+                background-color: #000000;
+                background-opacity:.3;
+                clip:true;
+            }
+            #actionButtons {
+                margin-left:auto;
+            }
+        </style>
+        <hbox width="100%" style="padding-left:2;padding-right:2;">
+            <image verticalAlign="center" resource="https://raw.githubusercontent.com/corecathx/corecathx.github.io/refs/heads/main/public/images/core.png" width="16px" height="16px"/>
+            <label id="wintext" text="HXDC - Debug Build." width="100%" verticalAlign='center'/>
+            <spacer width="100%" />
+            <hbox id="actionButtons">
+                <button id="minButton" horizontalAlign="right" icon="res/icons/window/minimize.png" />
+                <button id="maxButton" horizontalAlign="right" icon="res/icons/window/maximize.png" />
+                <button id="closeButton" horizontalAlign="right" icon="res/icons/window/close.png" />
+            </hbox>
+        </hbox>    
+    </vbox>
+    <vbox id="windowContent" width="100%" height="100%" style="background: #202020;">
+        
+    </vbox>
+</vbox>

@@ -1,0 +1,82 @@
+<vbox width="100%" height="100%" style="padding:8px;">
+    <style>
+        .textfield {
+            color: white;
+            font-size: 14px;
+            padding:8px;
+        }
+
+        #userName {
+            color: white;
+            font-size: 16px;
+            font-bold: true;
+        }
+        #userHandle {
+            color: gray;
+            font-size: 12px;
+        }
+
+        #channelhashtag {
+            font-size: 22px;
+            color: gray;
+            font-bold: true;
+        }
+
+        #channelname {
+            color:white;
+            font-size: 16px;
+            font-bold: true;
+        }
+        #channeldesc {
+            color: gray;
+            font-size: 12px;
+        }
+    </style>
+    <hbox width="100%" height="100%">
+        <vbox id="serverContainer" height="100%" style="padding: 8px; background-color: #000000;background-opacity:.3;clip:true;">
+        </vbox>
+        <splitter width="100%" height="100%">
+            <vbox width="25%" height="100%">
+                <scrollview width="100%" height="100%" contentWidth="100%" style="background-color: #000000;background-opacity:.3;clip:true;">
+                    <vbox id="sidebar" width="100%" style="padding: 8px;">
+                    </vbox>
+                </scrollview>
+
+                <hbox id="usermodal" width="100%" style="padding: 8px; background-color: #000000;background-opacity:.3;clip:true;">
+                    <image id="userpfp" resource="https://cdn.discordapp.com/embed/avatars/0.png" height="40px" width="40px" verticalAlign="center"/>
+                    <vbox verticalAlign="center">
+                        <label id="userName" text="User" />
+                        <label id="userHandle" text="@youruser"/>
+                    </vbox>
+                </hbox>
+            </vbox>
+
+            <vbox width="75%" height="100%">
+                <vbox width="100%" height="100%">
+                    <hbox width="100%" style="padding:8px; background-color: #000000;background-opacity:.3;clip:true;">
+                        <label text="# " id="channelhashtag" verticalAlign="center"/>
+                        <label id="channelname" text="channel-name" verticalAlign="center"/>
+                        <box width="4px" height="4px" style="border-radius:4px; background-color:white;background-opacity:.3;clip:true;" verticalAlign="center"/>
+                        <label width="100%" id="channeldesc" text="channel desc should be here." verticalAlign="center"/>
+                    </hbox>
+                    <scrollview id="chatscroller"  width="100%" height="100%" contentWidth="100%" style="background-color: #000000;background-opacity:.3;clip:true;">
+                        <vbox id="chatlist" width="100%" style="padding: 8px;">
+                        </vbox>  
+                    </scrollview>
+                </vbox>
+
+                <vbox width="100%" style="padding:8px; background-color: #000000;background-opacity:.3;clip:true;">
+                    <hbox id="messageattachment" width="100%" style="padding: 8px; background-color: #000000;background-opacity:.3;clip:true;">
+                    </hbox>
+                    <hbox width="100%" >
+                        <button id="atButton" icon="res/icons/file.png" height="100%" style="background-color: #000000;background-opacity:.3;clip:true;"/>    
+                        <textfield id="messagebox" placeholder="Message." width="100%" style="background-color: #000000;background-opacity:.3;clip:true;" />
+                        <button id="sendbutton" text="Send" height="100%" style="background-color: #000000;background-opacity:.3;clip:true;"/>    
+                    </hbox>
+
+                </vbox>  
+            </vbox>
+        </splitter>
+    </hbox>
+
+</vbox>
