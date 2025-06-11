@@ -6,6 +6,8 @@
 
 > This client uses a modified version of [furretpaws'](https://github.com/furretpaws) [`hxdiscord`](https://github.com/furretpaws/hxdiscord) library, shout out to them!!! :]
 
+![Preview](res/screenshot.png)
+
 This is a fun little Discord client I made using [Haxe](https://haxe.org/) and [HaxeUI](https://haxeui.org).  
 It uses your **user token** since, well, this client is intended for it.
 

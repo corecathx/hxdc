@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project>
-    <meta title="Main" package="" version="1.0.0" company="" />
-    <app main="Main" file="Main" path="build/openfl" />
+    <meta title="HXDC" package="" version="1.0.0" company="" />
+    <app main="Main" file="HXDC" path="build/openfl" />
 
     <window background="#FFFFFF" fps="60" />
     <window width="1000" height="600" if="desktop" />
@@ -22,4 +22,6 @@
 
     <haxelib name="haxeui-core" />
     <haxelib name="haxeui-openfl" />
+
+    <icon path="res/app.png" />
 </project>
